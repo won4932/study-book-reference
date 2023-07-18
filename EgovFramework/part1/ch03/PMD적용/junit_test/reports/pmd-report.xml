@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.6.1" timestamp="2018-07-02T16:17:07.685">
+<file name="src/com/rubypaper/junit/MyVector.java">
+<violation beginline="16" endline="18" begincolumn="0" endcolumn="0" rule="AvoidSynchronizedAtMethodLevel" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVector" priority="1">
+mothod 레벨의 synchronization 보다 block 레벨 synchronization 을 사용하는 것이 바람직함
+</violation>
+<violation beginline="31" endline="33" begincolumn="0" endcolumn="0" rule="AvoidSynchronizedAtMethodLevel" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVector" priority="1">
+mothod 레벨의 synchronization 보다 block 레벨 synchronization 을 사용하는 것이 바람직함
+</violation>
+<violation beginline="34" endline="38" begincolumn="0" endcolumn="0" rule="AvoidSynchronizedAtMethodLevel" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVector" priority="1">
+mothod 레벨의 synchronization 보다 block 레벨 synchronization 을 사용하는 것이 바람직함
+</violation>
+</file>
+<file name="testSrc/com/rubypaper/junit/MyVectorTest.java">
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="1">
+System.out.print 가 사용됨.
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="1">
+System.out.print 가 사용됨.
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="1">
+System.out.print 가 사용됨.
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="1">
+System.out.print 가 사용됨.
+</violation>
+<violation beginline="40" endline="40" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="1">
+System.out.print 가 사용됨.
+</violation>
+<violation beginline="45" endline="45" begincolumn="0" endcolumn="0" rule="StringInstantiation" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" priority="1">
+필요없는 Instance가 생성되어 있음
+</violation>
+<violation beginline="48" endline="48" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="1">
+System.out.print 가 사용됨.
+</violation>
+<violation beginline="53" endline="53" begincolumn="0" endcolumn="0" rule="StringInstantiation" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" priority="1">
+필요없는 Instance가 생성되어 있음
+</violation>
+<violation beginline="54" endline="54" begincolumn="0" endcolumn="0" rule="StringInstantiation" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" priority="1">
+필요없는 Instance가 생성되어 있음
+</violation>
+<violation beginline="58" endline="58" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="1">
+System.out.print 가 사용됨.
+</violation>
+<violation beginline="63" endline="63" begincolumn="0" endcolumn="0" rule="StringInstantiation" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" priority="1">
+필요없는 Instance가 생성되어 있음
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="StringInstantiation" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" priority="1">
+필요없는 Instance가 생성되어 있음
+</violation>
+<violation beginline="69" endline="69" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="1">
+System.out.print 가 사용됨.
+</violation>
+<violation beginline="77" endline="77" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="pmd-eclipse" package="com.rubypaper.junit" class="MyVectorTest" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="1">
+System.out.print 가 사용됨.
+</violation>
+</file>
+</pmd>

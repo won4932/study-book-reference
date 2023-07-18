@@ -1,0 +1,17 @@
+src/com/rubypaper/junit/MyVector.java:16:	mothod 레벨의 synchronization 보다 block 레벨 synchronization 을 사용하는 것이 바람직함
+src/com/rubypaper/junit/MyVector.java:31:	mothod 레벨의 synchronization 보다 block 레벨 synchronization 을 사용하는 것이 바람직함
+src/com/rubypaper/junit/MyVector.java:34:	mothod 레벨의 synchronization 보다 block 레벨 synchronization 을 사용하는 것이 바람직함
+testSrc/com/rubypaper/junit/MyVectorTest.java:16:	System.out.print 가 사용됨.
+testSrc/com/rubypaper/junit/MyVectorTest.java:21:	System.out.print 가 사용됨.
+testSrc/com/rubypaper/junit/MyVectorTest.java:27:	System.out.print 가 사용됨.
+testSrc/com/rubypaper/junit/MyVectorTest.java:32:	System.out.print 가 사용됨.
+testSrc/com/rubypaper/junit/MyVectorTest.java:40:	System.out.print 가 사용됨.
+testSrc/com/rubypaper/junit/MyVectorTest.java:45:	필요없는 Instance가 생성되어 있음
+testSrc/com/rubypaper/junit/MyVectorTest.java:48:	System.out.print 가 사용됨.
+testSrc/com/rubypaper/junit/MyVectorTest.java:53:	필요없는 Instance가 생성되어 있음
+testSrc/com/rubypaper/junit/MyVectorTest.java:54:	필요없는 Instance가 생성되어 있음
+testSrc/com/rubypaper/junit/MyVectorTest.java:58:	System.out.print 가 사용됨.
+testSrc/com/rubypaper/junit/MyVectorTest.java:63:	필요없는 Instance가 생성되어 있음
+testSrc/com/rubypaper/junit/MyVectorTest.java:64:	필요없는 Instance가 생성되어 있음
+testSrc/com/rubypaper/junit/MyVectorTest.java:69:	System.out.print 가 사용됨.
+testSrc/com/rubypaper/junit/MyVectorTest.java:77:	System.out.print 가 사용됨.
