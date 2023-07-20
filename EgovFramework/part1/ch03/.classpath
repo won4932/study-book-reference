@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="junit_test/src"/>
+	<classpathentry kind="src" path="junit_test/testSrc"/>
+	<classpathentry kind="src" path="PMD적용/junit_test/src"/>
+	<classpathentry kind="src" path="PMD적용/junit_test/testSrc"/>
+	<classpathentry kind="src" path="PMD적용이전/junit_test/src"/>
+	<classpathentry kind="src" path="PMD적용이전/junit_test/testSrc"/>
+	<classpathentry kind="output" path="PMD적용/junit_test/bin"/>
+</classpath>
