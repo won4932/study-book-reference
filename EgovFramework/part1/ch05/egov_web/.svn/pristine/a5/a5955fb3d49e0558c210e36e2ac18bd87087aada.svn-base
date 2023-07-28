@@ -1,0 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<!-- modifeid by TortoiseSVN -->
+<!-- 변경점 추가 허드슨 테스트 -->
+<jsp:forward page="/egovSampleList.do"/>
