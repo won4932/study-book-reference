@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+
+<sqlMap namespace="Sample">
+	<typeAlias alias="sample" type="egovframework.sample.service.SampleVO" />
+
+	<resultMap class="sample" id="sampleResult">
+		<result property="id" column="ID" />
+		<result property="title" column="TITLE" />
+		<result property="regUser" column="REG_USER" />
+		<result property="content" column="CONTENT" />
+		<result property="regDate" column="REG_DATE" />
+	</resultMap>
+
+	<insert id="SampleDAO.insertSample">
+		INSERT INTO SAMPLE(ID, TITLE, REG_USER, CONTENT, REG_DATE) VALUES(
+		#id#,
+		#title#,
+		#regUser#,
+		#content#,
+		SYSDATE)
+	</insert>
+
+	<update id="SampleDAO.updateSample">
+		UPDATE SAMPLE
+		SET ID=#id#,
+		TITLE=#title#,
+		REG_USER=#regUser#,
+		CONTENT=#content#
+		WHERE ID=#id#
+	</update>
+
+	<delete id="SampleDAO.deleteSample">
+		DELETE FROM SAMPLE
+		WHERE ID=#id#
+	</delete>
+
+	<select id="SampleDAO.selectSample" resultMap="sampleResult">
+		SELECT ID, TITLE, REG_USER, CONTENT, REG_DATE
+		FROM SAMPLE
+		WHERE ID=#id#
+	</select>
+
+	<select id="SampleDAO.selectSampleList" resultMap="sampleResult">
+	    SELECT ID, TITLE, REG_USER, CONTENT, REG_DATE 
+	    FROM SAMPLE 
+	    WHERE 1 = 1 
+	    <isEqual prepend="AND" property="searchCondition" compareValue="TITLE">
+	    TITLE LIKE '%'||#searchKeyword#||'%'             
+	   	</isEqual>
+	    <isEqual prepend="AND" property="searchCondition" compareValue="CONTENT">
+	    CONTENT LIKE '%'||#searchKeyword#||'%'             
+	    </isEqual>
+	   	ORDER BY ID DESC
+	</select>    
+
+</sqlMap>
